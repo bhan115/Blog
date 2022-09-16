@@ -10,11 +10,11 @@ gem "rails", "~> 7.0.4"
 gem "sprockets-rails"
 
 group :development, :test do
- gem 'sqlite3'
+ gem "sqlite3"
 end
 
 group :production do
-  gem 'pg'
+  gem "pg"
 end
 
 # Use the Puma web server [https://github.com/puma/puma]
